@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="overflow-y:hidden; overflow-y:scroll">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | VBS&trade;</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/lightbox.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header">      
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                    	<h1><img class="logo" src="images/logo/vbs-bolt.png" alt="logo"></h1>
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="directory.html">Directory</a></li>  
+                        <li class="dropdown">
+                            <a href="benefits.html">Benefits <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a target="_blank" href="https://paychecks.intuit.com/">View My Paycheck</a></li>
+                                <li><a target="_self" href="401k/">401K Empowerment</a></li>
+                                <li><a target="_blank" href="https://www.myuhc.com/">Medical Insurance</a></li>
+                                <li><a target="_blank" href="https://www.metlife.com/">Dental Insurance</a></li>
+                                <li><a href="vision/">Vision Insurance</a></li>
+                            </ul>
+                        </li>  
+                        <li class="dropdown">
+                            <a href="resources/resources.html">Resources <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a  href="resources/employeeManual.html">Employee Manual</a></li>
+                                <li><a target="_blank" href="http://hr.vancouverbolt.int/orangehrm-3.3.1/">Timeclock (IN/OUT)</a></li>
+                                <li><a target="_self" href="itinerary/index.html"> Sales Itinerary</a></li>
+                            </ul>
+                        </li>  
+                        <li class="dropdown"><a href="videos.html">Training Videos</a></li>  
+                         
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>VBS Employee Portal</h1>
+                        <p>This site is currently under construction, and more content will be coming soon. <b>Have an idea?</b> E-mail <a href="mailto:sarah@vancouverbolt.com">sarah@vancouverbolt.com</a></p>
+                        <a href="#" id="open-popup" class="btn btn-common">SIGN UP FOR OUR NEWSLETTER</a>
+                    </div>
+                    <img src="images/home/slider/bolt.png" class="slider-hill" alt="slider image">
+                    <!--<img src="images/home/slider/house.png" class="slider-house" alt="slider image">-->
+                    <!--<img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">-->
+                </div>
+            </div>
+        </div>
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+               
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy; Vancouver Bolt and Supply, Inc. 2016 - All Rights Reserved.</p>
+                        <br /><br /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+
+
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        function showMailingPopUp() {
+            require(["mojo/signup-forms/Loader"], function (L) {
+                L.start(
+            { "baseUrl": "mc.us11.list-manage.com", "uuid": "0d4488b8b0b045fdacb807bea", "lid": "ec71bdaf60" }
+            )
+            })
+        };
+
+        document.getElementById("open-popup").onclick = function () { showMailingPopUp() };
+
+        document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/scrollbarContentFix.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+</body>
+</html>

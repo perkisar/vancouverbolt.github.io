@@ -1,0 +1,141 @@
+﻿
+
+.justify div p {
+    text-align: justify;
+}
+
+.italic p {
+    font-style: italic;
+}
+
+.p12 p {
+    font-size: 12px;
+}
+
+.p8 {
+    font-size:8px;
+}
+
+ul {
+    list-style: disc;
+}
+
+
+#missionStatement {
+    padding-top:25px;
+    max-width:500px;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    text-align:center;
+}
+
+.complaintProcedure h4 {
+    font-weight:500;
+}
+
+.rightTxt {
+    text-align:unset;
+    text-align:right;
+    padding-right:20px;
+}
+
+.leftTxt {
+    text-align:unset;
+    text-align:left;
+    padding-left:20px;
+}
+
+#bend {
+    max-width:417px;
+    width:100%;
+        display:block;
+    margin:0 auto;
+
+}
+
+@media(min-width:992px){
+    #sticky {
+        position:fixed;
+        max-width:150px;
+        width:100%;
+        padding-top:unset;
+        margin-top:25px;
+    }
+
+    #quicklinks li {
+        display:inline;
+    }
+
+    #sticky a {
+        padding-left:3px;
+    }
+
+    #compensation,
+    #benefits,
+    #professionalism,
+    #workplaceSafety {
+        position:relative;
+        bottom:20px;
+    }
+}
+
+@media(max-width:991px){
+    #services {
+        padding-top:40px;
+    }
+
+    #sticky {
+        background-color:#fff;
+        opacity:unset;
+        fill-opacity:100;
+    }
+
+    #sticky h5 a {
+        float:left;
+        margin:0 5px 0 5px;
+    }
+
+    #sticky-anchor.space {
+        height:99px;
+    }
+
+    #sticky.stick {
+        position:unset;
+        position:fixed;
+        top:0;
+        max-width:720px;
+        width:100%;
+        z-index:100000;
+    }
+
+    #sticky h2 {
+        text-align:center;
+    }
+
+    #link {
+        max-width:540px;
+        width:100%;
+        height:20px;
+        display:block;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    #quicklinks {
+        margin-top:unset;
+    }
+
+    #compensation,
+    #benefits,
+    #professionalism,
+    #workplaceSafety {
+        position:relative;
+        bottom:100px;
+    }
+}
+
+.navA {
+    padding:unset;
+    padding-left:20px;
+}

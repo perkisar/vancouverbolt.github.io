@@ -1,0 +1,98 @@
+﻿.copyright-text {
+    margin-top:70px;
+}
+
+#entryForm div form select,
+#entryForm div form input {
+    height:40px;
+    max-width:550px;
+    width:100%;
+    margin: 20px 0 0 0;
+    padding-left:5px;
+}
+
+#entryForm div form textarea {
+    height:160px;
+    max-width:550px;
+    width:100%;
+    margin-top:20px;
+    padding: 7px 0 0 7px;
+}
+
+.alert {
+    max-width:550px;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+#listItems {
+
+}
+
+.titles {
+    text-align:center;
+    padding-top:25px;
+}
+
+.copyright-text {
+    margin-top:unset;
+    margin-top:47px;
+}
+
+.viewCal {
+    margin-top:5px;
+    text-decoration:underline;
+}
+
+#emptyDB {
+    text-align:center;
+    padding-bottom:30px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:66px;
+    margin-top:67px;
+}
+
+#emptyPerson {
+    text-align:center;
+    padding-bottom:30px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:66px;
+    margin-top:67px;
+}
+
+@media(min-width:800px){
+    #listItems {
+        min-height:385px;
+    }
+}
+
+.people {
+    text-align:center;
+    font-size:20px;
+}
+
+.subText {
+    font-size:12px;
+    line-height:14px;
+    text-align:left;
+}
+
+.subText a {
+    text-align:center;
+    
+}
+
+.subText a h3 {
+    background-color: #5bc0de;
+    border: 1px solid #46b8da;
+    padding:10px;
+    border-radius:4px;
+    margin-top:10px;
+    margin-bottom:0px;
+    color:#fff;
+}

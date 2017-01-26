@@ -1,0 +1,35 @@
+﻿.fauxBtn {
+    background-color:azure;
+    height:200px;
+}
+
+.icon-wrapper {
+    min-width:100px;
+    min-height:100px;
+}
+
+#list {
+    padding-top:30px;
+}
+
+#form {
+    padding-top:27px;
+    padding-left:27px;
+}
+
+#time {
+    height:50px;
+    width:50px;
+    padding-left:24px;
+    padding-top:21px;
+}
+
+#manual {
+    height:50px;
+    width:50px;
+    padding-top:28px;
+}
+
+#manual i {
+    font-size:3.3em;
+}
